@@ -1,7 +1,42 @@
-.project_title {
-    margin-top: 0;
-    margin-bottom: 0.1rem;
+* {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.main-image {
+
+}
+.tag-line{
+    text-transform: uppercase;
+}
+.nav ul {
+    list-style-type: none;
+    columns: 4;
+    text-align: center;
+}
+.txtlink:hover {
+    background-color: darkorange;
+    color: white;
+}
+.txtlink {
+    text-decoration: none;
+    color: black;
     font-weight: bold;
-    color: #4B0082 ;
-    background-color:#FFF0F5
+    text-shadow: cornsilk;
+}
+.tools {
+    color: gray;
+    font-weight: bold;
+    
+}
+
+footer {
+    background-color: #D3D3D3;
+    text-align: center;
+    height: 20px;
 }
